@@ -1,0 +1,1 @@
+console.log('moviesAdd.js connected success')
