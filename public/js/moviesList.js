@@ -1,0 +1,1 @@
+console.log('moviesList.js connected success')

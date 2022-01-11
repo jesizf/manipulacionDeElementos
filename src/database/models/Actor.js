@@ -26,7 +26,8 @@ module.exports = (sequelize, dataTypes) => {
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
-        deletedAt: false
+        deletedAt: false,
+        tableName:'actors'
     }
     const Actor = sequelize.define(alias, cols, config); 
 
